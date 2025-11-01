@@ -72,7 +72,7 @@ st.sidebar.markdown(f"**Filtered Results:** {len(filtered_df):,} crashes")
 st.success(f"Loaded {len(ws_df):,} crashes from Winston-Salem")
 
 # Data quality note
-with st.expander("📋 Data Quality & Methodology"):
+with st.expander("Data Quality"):
     st.markdown("""
     **Date Range Selection:**
     
@@ -604,4 +604,5 @@ st.markdown(f"*Analysis based on {total_crashes:,} traffic crashes in Winston-Sa
 
 # Display first few rows
 if st.checkbox("Show raw data"):
+
     st.dataframe(ws_df.head())
