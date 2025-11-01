@@ -27,4 +27,3 @@ streamlit run crash_dashboard.py or python -m streamlit run crash_dashboard.py
 - I-40 corridor accounts for 250+ severe crashes (highest risk area)
 - Morning rush hour (8 AM) shows peak crash frequency
 - 25% of all crashes are classified as severe (Level 3+)
-```
